@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="fr-CH">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO ULTIME VALAIS 2025 -->
+    <title>Agence Immobilière Valais - Rao immobilier SA | Achat Vente Location Conthey Sion Vétroz Ardon Chamoson</title>
+    <meta name="description" content="Agence immobilière indépendante en Valais central : achat, vente, location et gestion locative à Conthey, Sion, Vétroz, Ardon, Chamoson. Biens exclusifs, expertise locale, accompagnement sur mesure.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://raoimmo.ch"/>
+    
+    <!-- Open Graph + Twitter Cards -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rao immobilier SA | Agence Immobilière Valais - Conthey Sion">
+    <meta property="og:description" content="Votre partenaire immobilier de confiance en Valais central : achat, vente, location, gestion. Biens exclusifs à Conthey, Sion, Vétroz, Ardon, Chamoson.">
+    <meta property="og:url" content="https://raoimmo.ch">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1505843513577-22bb7d21e455?auto=format&fit=crop&w=1400&q=80">
+    <meta property="og:locale" content="fr_CH">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Schema.org RealEstateAgent -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RealEstateAgent",
+      "name": "Rao immobilier SA",
+      "url": "https://raoimmo.ch",
+      "image": "https://images.unsplash.com/photo-1505843513577-22bb7d21e455?auto=format&fit=crop&w=1400&q=80",
+      "description": "Agence immobilière spécialisée en Valais central : achat, vente, location, gestion locative à Conthey, Sion, Vétroz, Ardon, Chamoson.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Route Cantonale 55",
+        "addressLocality": "Conthey",
+        "addressRegion": "Valais",
+        "postalCode": "1964",
+        "addressCountry": "CH"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 46.224269,
+        "longitude": 7.303558
+      },
+      "telephone": "+41797382323",
+      "email": "contact@raoimmo.ch"
+    }
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #004D40;
+            --secondary: #00251A;
+            --accent: #D4AF37;
+            --light: #E0F2F1;
+            --gray: #757575;
+            --text: #212121;
+            --white: #FFFFFF;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { margin: 0; font-family: 'Open Sans', sans-serif; color: var(--text); background: var(--white); line-height: 1.6; }
+        h1, h2, h3 { font-family: 'Cinzel', serif; font-weight: 700; margin: 0; text-transform: uppercase; }
+        p { text-align: justify; margin: 0 0 1rem 0; }
+        a { text-decoration: none; color: inherit; }
+        img { max-width: 100%; height: auto; display: block; border-radius: 8px; }
+
+        header { position: sticky; top: 0; z-index: 1000; background: var(--primary); color: var(--white); box-shadow: 0 3px 8px rgba(0,0,0,0.1); transition: background .3s; }
+        header.scrolled { background: var(--secondary); }
+        nav { max-width: 1440px; margin: auto; padding: 1rem 3%; display: flex; justify-content: space-between; align-items: center; }
+        .logo { 
+            font-size: 1.8rem; 
+            font-weight: 700; 
+            color: var(--accent);
+            white-space: nowrap;
+        }
+        .logo span { color: var(--white); font-weight: 400; }
+        .nav-links { display: flex; gap: 1.8rem; transition: max-height .4s ease; }
+        .nav-links a { font-weight: 600; }
+        .nav-links a:hover { color: var(--accent); }
+        .burger { display: none; cursor: pointer; font-size: 1.8rem; color: var(--white); padding: 0.5rem; }
+
+        .hero { height: 100vh; min-height: 620px; background: linear-gradient(rgba(0,77,64,0.62), rgba(0,77,64,0.62)), url('https://images.unsplash.com/photo-1505843513577-22bb7d21e455?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat; display: flex; align-items: center; justify-content: center; text-align: center; color: var(--white); padding: 0 3%; }
+        .hero-content { max-width: 800px; }
+        .hero h1 { font-size: clamp(2.5rem, 6vw, 4rem); margin-bottom: 1rem; }
+        .slogan { font-size: clamp(1.1rem, 2vw, 1.5rem); margin-bottom: 2.8rem; font-weight: 300; }
+        .btn { display: inline-block; background: transparent; border: 2px solid var(--accent); color: var(--accent); padding: 16px 40px; font-weight: 600; transition: .3s; border-radius: 4px; min-height: 52px; }
+        .btn:hover { background: var(--accent); color: var(--primary); }
+
+        section { padding: 80px 3%; max-width: 1440px; margin: auto; }
+        .section-title { text-align: center; font-size: clamp(1.8rem, 4vw, 2.8rem); color: var(--primary); margin-bottom: 3rem; }
+
+        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+        .about-text h2 { font-size: 2rem; color: var(--primary); margin-bottom: 1rem; }
+        .about-text p { color: var(--gray); font-weight: 300; }
+
+        .expertise { display: grid; grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); gap: 2rem; }
+        .expertise-card { background: var(--light); padding: 2.5rem 2rem; border-radius: 8px; text-align: center; border: 1px solid var(--accent); transition: transform .3s; }
+        .expertise-card:hover { transform: scale(1.03); }
+        .expertise-card i { font-size: 3rem; color: var(--accent); margin-bottom: 1rem; }
+
+        .properties { display: grid; grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); gap: 2rem; }
+        .property-card { background: var(--white); border-radius: 8px; overflow: hidden; border: 1px solid var(--light); transition: box-shadow .3s; }
+        .property-card:hover { box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+        .property-img { height: 200px; width: 100%; object-fit: cover; transition: transform .4s; }
+        .property-card:hover .property-img { transform: scale(1.08); }
+        .property-info { padding: 1.5rem; }
+        .property-details { display: flex; justify-content: space-around; margin-bottom: 1rem; color: var(--gray); font-size: .85rem; flex-wrap: wrap; }
+        .property-price { font-size: 1.2rem; font-weight: 700; color: var(--accent); }
+
+        .vision { background: var(--light); padding: 80px 3%; }
+        .vision p { font-size: 1.2rem; max-width: 900px; margin: auto; color: var(--gray); line-height: 1.9; font-weight: 300; }
+
+        .contact-section { background: var(--secondary); color: var(--white); text-align: center; padding: 80px 3%; }
+        .contact-info p,
+        .contact-info .company-name {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.6rem;
+            margin: 0.8rem 0;
+            font-size: 1.02rem;
+        }
+        .contact-info h3 { margin-bottom: 1.8rem; }
+
+        footer { background: var(--primary); color: var(--white); text-align: center; padding: 2rem 3%; font-size: .9rem; }
+        .social-icons a { margin: 0 .7rem; font-size: 1.3rem; color: var(--white); transition: .3s; }
+        .social-icons a:hover { color: var(--accent); }
+
+        /* RESPONSIVE MOBILE OPTIMISÉ */
+        @media (max-width: 992px) {
+            .burger { display: block; }
+            .nav-links { position: absolute; top: 100%; left: 0; width: 100%; background: var(--primary); flex-direction: column; max-height: 0; overflow: hidden; transition: max-height .4s ease; }
+            .nav-links.active { max-height: 500px; padding-top: 1rem; }
+            .nav-links a { padding: 1.4rem 6%; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.1); }
+            .about-grid { grid-template-columns: 1fr; }
+            .about-text { order: 1; }
+            .hero { height: 80vh; min-height: 500px; }
+            .slogan { text-shadow: 0 2px 4px rgba(0,0,0,0.4); }
+            .btn { width: 100%; text-align: center; }
+            .about-text h2 { font-size: 1.6rem; }
+        }
+
+        @media (max-width: 576px) {
+            .property-img { height: 160px; }
+            .property-details { flex-direction: row; flex-wrap: wrap; gap: .5rem; }
+            section { padding: 60px 3%; }
+            .expertise { gap: 1.5rem; }
+            /* Nouvelle règle pour réduire l'image "Rao immobilier SA" sur mobile */
+            .about-img img {
+                max-width: 80%; /* Réduit la taille de l'image à 80% */
+                height: auto; /* Maintient le ratio de l'image */
+                display: block; /* Transforme l'image en élément de bloc */
+                margin: 0 auto; /* Centre l'image horizontalement */
+            }
+            /* Modifier l'ordre des éléments dans .about-grid pour que l'image apparaisse après le texte */
+            .about-grid {
+                display: flex;
+                flex-direction: column; /* Met les éléments en colonne sur mobile */
+                align-items: center; /* Centre le contenu horizontalement */
+            }
+            .about-text {
+                order: 1; /* Assure que le texte reste en premier dans l'ordre visuel */
+            }
+            .about-img {
+                order: 2; /* Place l'image après le texte sur mobile */
+            }
+        }
+
+        @media (max-width: 400px) {
+            .hero { min-height: 400px; }
+            .hero h1 { font-size: 2rem; }
+            .slogan { font-size: 1rem; }
+            .property-info { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo">Rao immobilier SA</div>
+        <div class="burger" aria-label="Menu mobile" id="burger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="nav-links" id="nav">
+            <a href="#accueil">Accueil</a>
+            <a href="#apropos">À propos</a>
+            <a href="#expertise">Expertise</a>
+            <a href="#biens">Biens en vente</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<section class="hero" id="accueil">
+    <div class="hero-content">
+        <h1>Rao immobilier SA</h1>
+        <p class="slogan">Votre partenaire de confiance pour l'immobilier en Valais.</p>
+        <a href="#biens" class="btn">Découvrir les biens</a>
+    </div>
+</section>
+
+<main>
+    <section id="apropos">
+        <h2 class="section-title">À propos de Rao immobilier SA</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <h2>Une approche innovante et personnalisée en Valais</h2>
+                <p>Fondée en 2025 à Conthey, Rao immobilier SA apporte une expertise fraîche et dynamique au marché local.</p>
+                <p>Grâce à un réseau étendu de partenaires, l'agence accompagne propriétaires, investisseurs et entreprises dans la concrétisation de leurs ambitions immobilières.</p>
+                <p>La force de Rao immobilier réside dans une stratégie réactive, sur mesure et centrée sur l'humain garantissant des solutions adaptées à chaque besoin unique, tout en respectant les traditions valaisannes et en innovant pour l'avenir.</p>
+            </div>
+            <div class="about-img">
+		<img src="https://images.pexels.com/photos/4963437/pexels-photo-4963437.jpeg" 
+     			alt="Rao immobilier SA, avec vous" 
+     			loading="lazy" 
+     			width="500" 
+     			height="auto">
+            </div>
+        </div>
+    </section>
+
+    <section id="expertise">
+        <h2 class="section-title">Domaines d'expertise</h2>
+        <div class="expertise">
+            <div class="expertise-card">
+                <i class="fas fa-handshake"></i>
+                <h3>Courtage</h3>
+                <p>Accompagnement complet pour la vente ou l'achat de biens immobiliers.</p>
+            </div>
+            <div class="expertise-card">
+                <i class="fas fa-key"></i>
+                <h3>Location & Gestion</h3>
+                <p>Recherche de locataires fiables, gestion quotidienne et rentabilité optimisée.</p>
+            </div>
+            <div class="expertise-card">
+                <i class="fas fa-building"></i>
+                <h3>Promotion immobilière</h3>
+                <p>Développement de projets résidentiels et commerciaux innovants.</p>
+            </div>
+            <div class="expertise-card">
+                <i class="fas fa-search-dollar"></i>
+                <h3>Conseil & estimation</h3>
+                <p>Évaluations précises et stratégies adaptées au marché valaisan.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="biens">
+        <h2 class="section-title">Biens en vente</h2>
+        <div class="properties">
+            <div class="property-card">
+                <img class="property-img" loading="lazy"
+                     src="https://images.pexels.com/photos/584399/living-room-couch-interior-room-584399.jpeg?auto=compress&cs=tinysrgb&w=800"
+                     alt="Magnifique Duplex en attique de 5.5 pièces à Vétroz">
+                <div class="property-info">
+                    <h3>Magnifique Duplex en attique de 5.5 pièces à Vétroz</h3>
+                    <p>Magnifique appartement de 5.5 pièces traversant situé dans un quartier résidentiel avec cadre verdoyant et vue panoramique sur les montagnes. Volumes généreux et belle terrasse exposée plein sud. Très bon état d'entretien. Garage individuel avec cave attenante et place de parc exétieure compris. Dossier complet sur demande.</p>
+                    <div class="property-details">
+                        <span><i class="fas fa-ruler-combined"></i> 140 m²</span>
+                        <span><i class="fas fa-bed"></i> 4 chambres</span>
+                        <span><i class="fas fa-bath"></i> 2 sdb</span>
+                    </div>
+                    <p class="property-price">CHF 720'000.-</p>
+                </div>
+            </div>
+            <div class="property-card">
+                <img class="property-img" loading="lazy"
+                     src="https://images.pexels.com/photos/34162922/pexels-photo-34162922.jpeg?auto=compress&cs=tinysrgb&w=800"
+                     alt="Terrain constructible à Vétroz">
+                <div class="property-info">
+                    <h3>Terrain constructible à Vétroz</h3>
+                    <p>1279 m² – zone résidentielle – vue dégagée.</p>
+                    <div class="property-details">
+                        <span><i class="fas fa-ruler-combined"></i> 1279 m²</span>
+                        <span><i class="fas fa-map-marker-alt"></i> Zone villa</span>
+                        <span><i class="fas fa-mountain"></i> Vue Alpes</span>
+                    </div>
+                    <p class="property-price">CHF 959'250.-</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="vision">
+        <p>Chez Rao immobilier SA, nous plaçons l’humain au cœur de chaque projet et valorisons la réactivité, la transparence et la proximité. Notre vision : rendre l'immobilier accessible et sans tracas pour tous nos clients.</p>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <h3>Contactez-nous</h3>
+        <div class="contact-info">
+            <p class="company-name"><i class="fas fa-building"></i> Rao immobilier SA</p>
+            <p><i class="fas fa-map-marker-alt"></i> Route Cantonale 55, 1964 Conthey</p>
+            <p><i class="fas fa-phone"></i> <a href="tel:+41797382323">+41 79 738 23 23</a></p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:contact@raoimmo.ch">contact@raoimmo.ch</a></p>
+        </div>
+ </section>
+</main>
+
+<footer>
+    © 2025 Rao immobilier SA – Tous droits réservés
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+</footer>
+<script>
+    const burger = document.getElementById('burger');
+    const nav = document.getElementById('nav');
+    burger.addEventListener('click', () => { nav.classList.toggle('active'); });
+    document.addEventListener('click', e => {
+        if(!nav.contains(e.target) && !burger.contains(e.target)) { nav.classList.remove('active'); }
+    });
+
+    window.addEventListener('scroll', () => {
+        document.querySelector('header').classList.toggle('scrolled', window.scrollY > 50);
+    });
+</script>
+</body>
+</html>
